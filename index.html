@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>La granja de mi Tio - Juego en canvas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <style>
+        ::root {
+            --fuente-principal: "Montserrat";
+            --fondo: 
+            --pie: #BDC3C7;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-shadow: 0;
+            box-sizing: 0;
+        }
+        
+        body {
+            
+            background-color: rgb(34, 175, 96);
+            margin-top: 0;
+            padding-top: 0px;
+
+        }
+
+        @media (min-width: 780px) {
+            .contenedor 
+            {
+            background: white;
+            text-align: center;
+            margin-left: 10%;
+            margin-right: 10%;
+            padding-bottom: 8%;
+            margin-top: 0px;
+            padding-top: 0px;
+            
+            border-radius: 0px 0px 15px 15px;
+            -moz-border-radius: 0px 0px 15px 15px;
+            -webkit-border-radius: 0px 0px 15px 15px;
+            border: 0px solid #000000;
+
+            }
+        }
+
+
+        h1 {
+            font-weight: 600;
+            font-size: 38px;
+            font-family: Malgun Gothic;
+            padding-top: 10px;
+            padding-bottom: 40px;
+        }
+
+        h2 {
+            font-weight: 400;
+            font-size: 28px;
+            font-family: monospace;
+            padding-bottom: 28px;
+        }
+
+        p {
+            font-family: Cascadia Code Light;
+            font-size: 18px;
+            padding-top: 28px;
+        }
+        
+        footer {
+            text-align: center;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            color: #e7e7e7;
+
+            
+        }
+
+        footer p {
+            font-size: 17px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 5px;
+            padding-bottom: 0px;
+        }
+    </style>
+
+</head>
+<body>
+    
+<div class="contenedor">
+    <h1>Juego del cerdo en la granja</h1>
+
+    <h2>Mueve con las flechas del teclado el cerdo</h2>
+
+
+    <canvas width="500" height="500" id="villaplatzi"></canvas>
+
+    <p>Este juego fue creado con el fin de aprendizaje propio y con el fin de exhibir el mismo.
+        <br>Si deseas mi contacto esta en el pie de pagina.
+        
+    </p>
+
+
+    
+
+    
+
+</div>
+
+<footer><p>Todos los derechos reservado. Tomas Mejia. Contacto: +57 3003083104</p></footer>
+
+
+<script src="platzi.js"></script>
+</body>
+</html>
